@@ -1,0 +1,3321 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://intranet.alxswe.com/projects/100581 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="google" content="notranslate">
+
+      <script type="text/javascript" async="" src="./base_index_files/cody-widget.js.download"></script><script async="" src="./base_index_files/pendo.js.download"></script><script type="text/javascript" async="" src="./base_index_files/js"></script><script async="" src="./base_index_files/gtm.js.download"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({"userId":229150,"visitorType":"student","batch":{"id":346,"fullNameWithC":"JNB-FE-0624 (C#2-TL-FE)","schoolLocation":{"id":5,"name":"Johannesburg"}},"curriculum":{"id":69,"name":"Front-End Web Development"}});
+
+    window.gtm_user_custom_event = function (name, options) {
+      if (typeof name === 'undefined') {
+        return;
+      }
+
+      window.dataLayer.push({
+        customEventOptions: typeof options !== 'undefined' ? options : {},
+        event: name,
+      });
+    }
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N4C8MF2');</script>
+  <!-- End Google Tag Manager -->
+
+
+    <title>Project: Introduction to HTML | Johannesburg Intranet</title>
+
+      <link rel="stylesheet" href="./base_index_files/xgz4ilr.css">
+      <link rel="stylesheet" media="all" href="./base_index_files/application_alx-f0a62a714ef43c3f669c87b52d87de92b7b91cbdea68c47dee9fb68aea82ff62.css">
+      <script src="./base_index_files/loader.js.download"></script>
+      <script src="./base_index_files/application-06e9a3ffafcb03d34c31475ffbd87ceb2261f0ec62464b93f7a96394b398ffa9.js.download"></script>
+      <link rel="shortcut icon" type="image/x-icon" href="https://intranet.alxswe.com/favicon_alx.ico">
+      <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="YvzHamT7RK4RyxUuO6gLQ-s7KY2_yI0LlQiUKzlxRpH99as-mrDo7l8nWNzR-c83pB_C9o2DSjNag5MUOyw3LQ">
+
+      <link rel="apple-touch-icon" href="https://intranet.alxswe.com/apple-touch-icon_alx.png">
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      <!-- Store user timezone -->
+      <script>
+        Cookies.set('timezone', (new Date()).getTimezoneOffset() / -60.0);
+      </script>
+
+      <!-- intro.js for interactive onboarding -->
+
+
+      <!-- React -->
+      <script src="./base_index_files/application-e3c8526893bba4c3360e.js.download"></script>
+      <link rel="stylesheet" media="screen" href="./base_index_files/application-87456da7.css">
+
+
+  <script src="./base_index_files/app.js.download" async=""></script><style nonce="undefined">
+iframe#userpilot-nps {
+  width: 900px;
+  right: 0px;
+  margin: 0px auto;
+  opacity: 1 !important;
+}
+
+/* NPS Mobile */
+@media (max-width: 900px) {
+  iframe#userpilot-nps {
+      width: 100%;
+  }
+}
+
+iframe#userpilot-resource-centre-frame {
+  width: 0px;
+  height: 0px;
+}
+
+div#userpilotContent[key="1377467235"]:not(.preview) {
+  position: absolute;
+  line-height: 18px;
+  -webkit-transition: none;
+  transition: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2147483638;
+  pointer-events: none;
+  outline: none !important;
+  background: none !important;
+  --sidebar-width: 0px;
+  direction: ltr;
+  display: block;
+}
+
+div#userpilotContent[key="1377467235"] * {
+  -webkit-transition: none;
+  transition: none;
+  direction: ltr;
+}
+
+#userpilotContent[key="1377467235"] .conv-cont, #userpilotContent[key="1377467235"] .conv-backdrop-cont {
+  z-index: 999999999;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  transition: opacity 0.1s, z-index 0s, visibility 0s;
+}
+
+#userpilotContent[key="1377467235"] .conv-cont, #userpilotContent[key="1377467235"] .conv-backdrop-cont {
+  z-index: 999999999;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  transition: opacity 0.1s, z-index 0s, visibility 0s;
+}
+
+#userpilotContent[key="1377467235"] .userpilot .conv-cont {
+  z-index: 2147483000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+
+#userpilotContent[key="1377467235"] .conv-cont {
+  background: none;
+}
+
+#userpilotContent[key="1377467235"] .canv {
+  position: absolute;
+  top: 0;
+  box-shadow: inset 0 0 0 0px #ffffff, inset 0 0 15px rgb(208, 208, 208);
+  background: none !important;
+  display: flex;
+  border: 10000px solid rgba(255, 255, 255, .56);
+  margin-left: -10000px;
+  margin-top: -10000px;
+  padding: 150px;
+  opacity: 0;
+  transition: opacity 0.6s;
+  border-radius: 10006px
+}
+
+#userpilotContent[key="1377467235"] .userpilot .canv {
+  position: fixed;
+  top: 0;
+  background: none;
+  display: flex;
+  border: 10000px solid rgba(255, 255, 255, .7);
+  margin-left: -10000px;
+  margin-top: -10000px;
+  padding: 150px;
+  opacity: 0;
+  border-radius: 10006px
+}
+
+#userpilotContent[key="1377467235"] .canv.userpilot-canv-hidden {
+  opacity: 0 !important
+}
+
+#userpilotContent[key="1377467235"] .userpilot-soft-focus .canv {
+  border: none
+}
+
+#userpilotContent[key="1377467235"] .conv-cont[userpilot-hidden] .up-userpilot-mmx-part{
+  pointer-events: none !important;
+}
+
+#userpilotContent[key="1377467235"] .up-userpilot-mmx-part {
+  position: absolute;
+  z-index: 1 !important;
+  background: none;
+}
+
+#userpilotContent[key="1377467235"] [up-backdrop="0"] {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#userpilotContent[key="1377467235"] .conv-cont[backdrop-overlay="1"] .up-userpilot-mmx-part {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0px !important;
+  left: 0px !important;
+}
+
+#userpilotContent[key="1377467235"] .conv-cont.allow-scroll .up-userpilot-mmx-part {
+  pointer-events: none;
+}
+
+div#userpilotContent[key="1377467235"]>*, div#userpilotContent[key="1377467235"]>*:not(.userpilot-hotspot-container)>*:not(.userpilot-backdrop) {
+  pointer-events: all;
+}
+
+#userpilotContent[key="1377467235"] .userpilot-mmx-cursor {
+  position: fixed;
+  width: 14px;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  pointer-events: none
+}
+#userpilotContent[key="1377467235"] .userpilot-mmx-cursor * {
+  pointer-events: none !important;
+}
+#userpilotContent[key="1377467235"] .up-t-pluse {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 100%;
+  color: gainsboro;
+  background: gainsboro
+}
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse {
+  width: 10px;
+  height: 10px;
+  pointer-events: none !important;
+}
+#userpilotContent[key="1377467235"] .up-t-pluse:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: -3px;
+  top: -3px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 7px solid;
+  border-color: inherit;
+  -webkit-animation: userpilotActive 2s infinite linear;
+  animation: userpilotActive 2s infinite linear
+}
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse:before {
+  height: 18px;
+  width: 18px;
+  left: -4px;
+  top: -4px;
+  border: 0px;
+  background: inherit;
+  -webkit-animation: userpilot-tooltip-pulse 2s infinite linear;
+  animation: userpilot-tooltip-pulse 2s infinite linear
+}
+@keyframes userpilotActive {
+  0% {
+    -webkit-transform: scale(.1);
+    border-color: inherit;
+    opacity: 1
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    border: 5px solid;
+    border-color: inherit;
+    opacity: 1
+  }
+
+  40% {
+    -webkit-transform: scale(1.3);
+    border: 0 solid;
+    border-color: inherit
+  }
+
+  100% {
+    border: 0 solid;
+    border-color: inherit
+  }
+}
+
+@-webkit-keyframes active {
+  0% {
+    -webkit-transform: scale(.1);
+    border-color: inherit;
+    opacity: 1
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    border: 5px solid;
+    border-color: inherit;
+    opacity: 1
+  }
+
+  40% {
+    -webkit-transform: scale(1.3);
+    border: 0 solid;
+    border-color: inherit
+  }
+
+  100% {
+    border: 0 solid;
+    border-color: inherit
+  }
+}
+
+#userpilotContent[key="1377467235"] .userpilot-ripple {
+  position: absolute;
+  pointer-events: none;
+  width: 0px;
+  height: 30px;
+  border: none;
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+}
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple {
+  height: 18px;
+  width: 18px;
+  background-color: transparent !important;
+}
+#userpilotContent[key="1377467235"] .userpilot-ripple:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 0px;
+  top: 0px;
+  background-color: transparent;
+  border-radius: 50%;
+  background: inherit;
+  -webkit-animation: userpilotActive 2s infinite linear;
+  animation: userpilotActive 2s infinite linear;
+  border: 10px solid;
+  border-color: inherit;
+  box-sizing: border-box;
+}
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple:before {
+  height: 18px;
+  width: 18px;
+  left: -1px;
+  top: -1px;
+  -webkit-animation: userpilot-tooltip-pulse 2s infinite linear;
+  animation: userpilot-tooltip-pulse 2s infinite linear;
+}
+@-webkit-keyframes userpilot-tooltip-pulse {
+  0%,
+  100% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.2;
+  }
+
+  50% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+}
+
+@keyframes userpilot-tooltip-pulse {
+  0%,
+  100% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.2;
+  }
+
+  50% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+}
+
+#userpilotContent[key="1377467235"] .userpilot-ripple:after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 10px;
+  top: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  background: inherit;
+  -webkit-animation: userpilot_active_after 2s infinite linear;
+  animation: userpilot_active_after 2s infinite linear;
+  box-sizing: border-box;
+  background: currentColor;
+}
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple:after {
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  top: 4px;
+  animation: none;
+}
+@keyframes userpilot_active_after {
+  0% {
+    -webkit-transform: scale(.1);
+    opacity: 1
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: scale(1)
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(5)
+  }
+}
+
+@keyframes userpilotActive {
+  0% {
+    -webkit-transform: scale(.1);
+    opacity: 1;
+    border-color: inherit;
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform: scale(1.5);
+    border-color: inherit;
+  }
+
+  30% {
+    background: none;
+    border: 0 solid;
+    border-color: inherit;
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+    border-color: inherit;
+  }
+}
+
+
+/* sonar animations */
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="sonar"], 
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="sonar"] {
+  background: none !important;
+  animation: none;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="sonar"]::after, 
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="sonar"]::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  border-radius: 150px;
+  animation: pulse-dot infinite 1.5s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: currentColor;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="sonar"]::before,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="sonar"]::before {
+  left: 0px;
+  top: 0px;
+  animation: pulse-ring infinite 1.5s;
+  border-style: solid;
+  border-width: 4px;
+  padding: 5px;
+  background: none !important;
+}
+
+/* morph animation */
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="morph"],
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="morph"] {
+  background: none !important;
+  animation: none;
+  height: 18px;
+  width: 18px;
+  left: -4px;
+  top: -4px;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="morph"]::before,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="morph"]::before {
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  opacity: .6;
+  position: absolute;
+  border-radius: 50%;
+  animation: morph 1s linear infinite;
+  box-shadow: 0 0 5px 1px currentColor;
+  border: 9px solid;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="morph"]::after,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="morph"]::after {
+  background: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  content: "";
+  display: block;
+}
+
+/* target animation */
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="target"],
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="target"]{
+  height: 18px;
+  width: 18px;
+  box-shadow: 0 0 4px 2px currentColor;
+  opacity: 1;
+  animation: target 2s linear infinite;
+  background: currentColor !important;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="target"]::before,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="target"]::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: currentColor transparent transparent transparent;
+  opacity: .6;
+  background: none;
+  animation: none;
+  border-radius: 0;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="target"]::after,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="target"]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 10px 10px;
+  border-color: transparent transparent currentColor transparent;
+  opacity: .6;
+  top: initial;
+  left: initial;
+  border-radius: initial;
+  background: none;
+}
+
+ /* egg animations */
+ #userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="egg"],
+ #userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="egg"]{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 0 0 6px 4px currentColor;
+  animation: egg 600ms linear infinite;
+  animation-direction: alternate;
+  background: none !important;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="egg"]::before,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="egg"]::before {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  background: transparent;
+  border: 1px solid currentColor;
+  animation: none;
+}
+
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .up-t-pluse[animation="egg"]::after,
+#userpilotContent[key="1377467235"]:not([version="0.1"]) .userpilot-ripple[animation="egg"]::after {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  display: block;
+  background: currentColor;
+  opacity: .6;
+}
+
+
+@keyframes userpilotActive {
+  0% {
+    -webkit-transform: scale(.1);
+    border-color: inherit;
+    opacity: 1
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    border: 5px solid;
+    border-color: inherit;
+    opacity: 1
+  }
+
+  40% {
+    -webkit-transform: scale(1.3);
+    border: 0 solid;
+    border-color: inherit
+  }
+
+  100% {
+    border: 0 solid;
+    border-color: inherit
+  }
+}
+
+@-webkit-keyframes active {
+  0% {
+    -webkit-transform: scale(.1);
+    border-color: inherit;
+    opacity: 1
+  }
+
+  30% {
+    -webkit-transform: scale(1);
+    border: 5px solid;
+    border-color: inherit;
+    opacity: 1
+  }
+
+  40% {
+    -webkit-transform: scale(1.3);
+    border: 0 solid;
+    border-color: inherit
+  }
+
+  100% {
+    border: 0 solid;
+    border-color: inherit
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(1, 1) translate(-50%, -50%);
+  }
+
+  30% {
+    transform: scale(1.25, 1.25) translate(-40%, -40%);
+  }
+
+  100% {
+    transform: scale(1, 1) translate(-50%, -50%);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: .5;
+  }
+
+  100% {
+    transform: scale(1.8, 1.8);
+    opacity: 0;
+  }
+}
+
+@keyframes morph {
+  0% {
+    transform: rotateZ(0);
+    border-radius: 20%;
+  }
+
+  50% {
+    transform: rotateZ(45deg);
+    border-radius: 50%;
+  }
+
+  100% {
+    transform: rotateZ(90deg);
+    border-radius: 20%;
+  }
+}
+
+@keyframes target {
+  0% {
+    transform: rotateZ(0) scale(0.6);
+  }
+
+  50% {
+    transform: rotateZ(180deg) scale(1);
+  }
+
+  100% {
+    transform: rotateZ(360deg) scale(0.6);
+  }
+}
+
+@keyframes egg {
+  from {
+    box-shadow: inset 0 0 8px 3px currentColor;
+  }
+
+  to {
+    box-shadow: inset 0 0 4px 1px currentColor;
+  }
+}</style><style nonce="undefined">
+iframe#userpilotIframeContainer,
+iframe#userpilotContentNativeIframe,
+iframe#userpilot-nps,
+iframe#userpilot-resource-centre-frame,
+iframe#userpilot-checklist,
+iframe#userpilotSurveys,
+iframe#userpilot-survey {
+  background: none;
+  max-height: none;
+  max-width: none;
+  min-height: 0px;
+  min-width: 0px;
+  filter: none;
+  pointer-events: initial;
+}
+
+iframe#userpilotIframeContainer,
+iframe#userpilotContentNativeIframe,
+iframe#userpilot-resource-centre-frame,
+iframe#userpilot-checklist,
+iframe#userpilotSurveys,
+iframe#userpilot-survey {
+  right: initial;
+  left: initial;
+  top: initial;
+  bottom: initial;
+}
+
+iframe#userpilotIframeContainer,
+iframe#userpilotContentNativeIframe,
+iframe#userpilot-resource-centre-frame {
+    display: initial;
+}
+</style></head>
+
+  <body class="signed_in env_production notranslate" translate="no" data-theme-suffix="_alx">
+      <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4C8MF2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+      <div data-react-class="header/Header" data-react-props="{&quot;ehubHeaderSdkJsUrl&quot;:null,&quot;logoUrl&quot;:&quot;https://intranet.alxswe.com/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png&quot;,&quot;discord&quot;:{&quot;label&quot;:&quot;Discord&quot;,&quot;targetUrl&quot;:&quot;https://discord.com/app&quot;,&quot;linkOpts&quot;:{&quot;target&quot;:&quot;_blank&quot;,&quot;rel&quot;:&quot;noreferrer&quot;}},&quot;user&quot;:{&quot;myProfileUrl&quot;:&quot;/users/my_profile&quot;,&quot;profilePictureUrl&quot;:&quot;https://intranet.alxswe.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1pEQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6549c97591964b9a27d720ec77a72fb751719ca7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtCeUdrQnlBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--596ca5c9d0091ccfe5374ad3fb3471cc1878f984/pic_pro.jpg&quot;},&quot;listItems&quot;:[{&quot;label&quot;:&quot;My Planning&quot;,&quot;iconName&quot;:&quot;calendar&quot;,&quot;targetUrl&quot;:&quot;/planning/me&quot;},{&quot;label&quot;:&quot;Projects&quot;,&quot;iconName&quot;:&quot;code-fork&quot;,&quot;targetUrl&quot;:&quot;/projects/current&quot;,&quot;id&quot;:&quot;sidebar-current-projects-item&quot;},{&quot;label&quot;:&quot;Evaluation quizzes&quot;,&quot;iconName&quot;:&quot;question&quot;,&quot;targetUrl&quot;:&quot;/dashboards/my_current_evaluation_quizzes&quot;},{&quot;label&quot;:&quot;My resources&quot;},{&quot;label&quot;:&quot;Curriculums&quot;,&quot;iconName&quot;:&quot;graduation-cap&quot;,&quot;targetUrl&quot;:&quot;/dashboards/my_curriculums&quot;},{&quot;label&quot;:&quot;Concepts&quot;,&quot;iconName&quot;:&quot;file-text&quot;,&quot;targetUrl&quot;:&quot;/concepts&quot;,&quot;id&quot;:&quot;sidebar-concepts-item&quot;},{&quot;label&quot;:&quot;Conference rooms&quot;,&quot;iconName&quot;:&quot;comments&quot;,&quot;targetUrl&quot;:&quot;/dashboards/video_rooms&quot;,&quot;id&quot;:&quot;sidebar-dashboards-video-rooms&quot;},{&quot;label&quot;:&quot;Video on demand&quot;,&quot;iconName&quot;:&quot;film&quot;,&quot;targetUrl&quot;:&quot;/dashboards/videos&quot;}]}" data-react-cache-id="header/Header-0"><div class="header align-items-center bg-white border-bottom position-fixed top-0 w-full hidden-xs" style="background-color: white; border-color: rgb(229, 230, 230); height: 72px; z-index: 1000;"><div class="header-left align-items-center d-flex position-fixed px-2" style="z-index: 2;"><div class="hamburger mb-0 p-2" style="cursor: pointer; font-size: 24px;"><i class="fa-solid fa-fas fa-bars"></i></div><a class="logo-container bg-white p-1" href="https://intranet.alxswe.com/"><div class="logo mx-auto" style="background-image: url(&quot;https://intranet.alxswe.com/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png&quot;); background-size: contain; height: 40px; width: 40px;"></div></a></div><div class="header-right d-flex align-items-center flex-grow-1 justify-content-center" style="z-index: 1;"></div></div><div class="navigation sidebar hidden-xs h-full position-fixed border-right bottom-0 start-0 overflow-scroll" id="sidebar" style="border-color: rgb(238, 238, 238); top: 72px; width: 250px;"><ul class="px-2" style="margin-bottom: 150px;"><li class="d-flex align-items-center"><a href="https://intranet.alxswe.com/" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-home"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Home</div></a></li><li class="d-flex align-items-center"><a href="https://intranet.alxswe.com/planning/me" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-calendar"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">My Planning</div></a></li><li class="d-flex align-items-center" id="sidebar-current-projects-item"><a href="https://intranet.alxswe.com/projects/current" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-code-fork"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Projects</div></a></li><li class="d-flex align-items-center"><a href="https://intranet.alxswe.com/dashboards/my_current_evaluation_quizzes" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-question"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Evaluation quizzes</div></a></li><hr title="My resources"><li class="d-flex align-items-center"><a href="https://intranet.alxswe.com/dashboards/my_curriculums" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-graduation-cap"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Curriculums</div></a></li><li class="d-flex align-items-center" id="sidebar-concepts-item"><a href="https://intranet.alxswe.com/concepts" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-file-text"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Concepts</div></a></li><li class="d-flex align-items-center" id="sidebar-dashboards-video-rooms"><a href="https://intranet.alxswe.com/dashboards/video_rooms" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-comments"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Conference rooms</div></a></li><li class="d-flex align-items-center"><a href="https://intranet.alxswe.com/dashboards/videos" target="_self"><div class="icon "><i aria-hidden="true" class="fa-solid fa-film"></i></div><div class="pl-3 overflow-hidden text-nowrap" style="display: block;">Video on demand</div></a></li><li class="d-flex align-items-center"><a href="https://discord.com/app" target="_blank" rel="noreferrer"><div class="icon"><i aria-hidden="true" class="fa-brands fa-discord"></i></div><div class="text-muted flex-grow-1 pl-3 overflow-hidden text-nowrap" style="display: block;">Discord</div></a></li><li class="d-flex align-items-center p-2 position-fixed bg-white border-right border-top bottom-0 start-0 mb-0" style="background-color: white; border-color: rgb(238, 238, 238); width: 250px;"><a href="https://intranet.alxswe.com/users/my_profile"><div class="image "><div class="inner" style="background-image: url(&quot;https://intranet.alxswe.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1pEQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6549c97591964b9a27d720ec77a72fb751719ca7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtCeUdrQnlBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--596ca5c9d0091ccfe5374ad3fb3471cc1878f984/pic_pro.jpg&quot;);"></div></div><div class="text-muted d-none flex-grow-1 pl-3 overflow-hidden text-nowrap" style="display: block;">My Profile</div></a></li></ul></div></div>
+
+      <nav class="navbar navbar-default navbar-fixed-top topbar visible-xs">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <a class="navbar-brand" href="https://intranet.alxswe.com/">
+      <div class="logo"></div>
+</a>  </div>
+
+  <div class="collapse navbar-collapse navigation" id="navbar-mobile">
+    <ul class="nav navbar-nav">
+      <li data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="Home"><a href="https://intranet.alxswe.com/"><div class="icon "><i aria-hidden="true" class="fa-solid fa-home "></i></div><div class="visible-xs">Home</div></a></li>
+
+
+
+
+    <li data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="My Planning"><a href="https://intranet.alxswe.com/planning/me"><div class="icon "><i aria-hidden="true" class="fa-solid fa-calendar "></i></div><div class="visible-xs">My Planning</div></a></li>
+    <li data-container="body" data-placement="right" data-toggle="tooltip" id="sidebar-current-projects-item" title="" data-original-title="Projects"><a href="https://intranet.alxswe.com/projects/current"><div class="icon "><i aria-hidden="true" class="fa-solid fa-code-fork "></i></div><div class="visible-xs">Projects</div></a></li>
+    
+    
+    <li data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="Evaluation quizzes"><a href="https://intranet.alxswe.com/dashboards/my_current_evaluation_quizzes"><div class="icon "><i aria-hidden="true" class="fa-solid fa-question "></i></div><div class="visible-xs">Evaluation quizzes</div></a></li>
+
+    <hr title="My resources">
+
+    <li data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="Curriculums"><a href="https://intranet.alxswe.com/dashboards/my_curriculums"><div class="icon "><i aria-hidden="true" class="fa-solid fa-graduation-cap "></i></div><div class="visible-xs">Curriculums</div></a></li>
+    <li data-container="body" data-placement="right" data-toggle="tooltip" id="sidebar-concepts-item" title="" data-original-title="Concepts"><a href="https://intranet.alxswe.com/concepts"><div class="icon "><i aria-hidden="true" class="fa-solid fa-file-text "></i></div><div class="visible-xs">Concepts</div></a></li>
+    <li data-container="body" data-placement="right" data-toggle="tooltip" id="sidebar-dashboards-video-rooms" title="" data-original-title="Conference rooms"><a href="https://intranet.alxswe.com/dashboards/video_rooms"><div class="icon "><i aria-hidden="true" class="fa-solid fa-comments "></i></div><div class="visible-xs">Conference rooms</div></a></li>
+    
+    
+    
+    <li data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="Video on demand"><a href="https://intranet.alxswe.com/dashboards/videos"><div class="icon "><i aria-hidden="true" class="fa-solid fa-film "></i></div><div class="visible-xs">Video on demand</div></a></li>
+    
+
+
+
+<hr class="visible-xs">
+
+<li>
+      <div data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="Discord">
+        <a rel="noreferrer" target="_blank" href="https://discord.com/app">
+          <div class="icon discord">
+            <i aria-hidden="true" class="fa-brands fa-discord "></i>
+          </div>
+          <div class="visible-xs">Discord</div>
+</a>      </div>
+
+  <div data-container="body" data-placement="right" data-toggle="tooltip" title="" data-original-title="My Profile">
+    <a href="https://intranet.alxswe.com/users/my_profile">
+        <div class="image ">
+          <div class="inner" style="background-image: url(&#39;https://intranet.alxswe.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1pEQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6549c97591964b9a27d720ec77a72fb751719ca7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtCeUdrQnlBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--596ca5c9d0091ccfe5374ad3fb3471cc1878f984/pic_pro.jpg&#39;)"></div>
+        </div>
+
+      <div class="visible-xs">My Profile</div>
+</a>  </div>
+</li>
+
+
+    </ul>
+  </div>
+</nav>
+
+
+    <main class="content" id="content">
+        
+
+        <div id="layout-bars">
+          
+          <div class="px-5 py-3" id="student-switch-curriculum">
+  <div class="dropdown d-flex flex-column gap-1">
+    <span class="fs-small text-muted">Curriculum</span>
+
+    <div aria-haspopup="true" aria-expanded="false" class="align-items-center d-flex gap-3" data-toggle="dropdown" id="student-switch-curriculum-dropdown" role="button">
+      <div class="d-flex flex-column" style="line-height: 16px">
+        <span class="fs-4 fw-600">
+          Front-End Web Development
+        </span>
+        <span class="fs-small text-muted">
+          Average: <span class="fw-500">42.66%</span>
+        </span>
+      </div>
+
+      <div class="d-flex flex-column justify-content-center">
+        <span style="margin-bottom: -4px">
+          <i aria-hidden="true" class="fa-solid fa-angle-up  fa-fw"></i>
+        </span>
+        <span style="margin-top: -4px">
+          <i aria-hidden="true" class="fa-solid fa-angle-down  fa-fw"></i>
+        </span>
+      </div>
+    </div>
+
+    <ul aria-labelledby="student-switch-curriculum-dropdown" class="dropdown-menu fs-5">
+        <li>
+          <a href="https://intranet.alxswe.com/curriculums/69/observe">
+            <div class="align-items-center d-flex py-2">
+              <div class="d-flex flex-column" style="line-height: 16px">
+                <span class="fs-4 fw-500">
+                  Front-End Web Development
+                </span>
+                <span class="text-muted">
+                  Average: <span class="fw-500">42.66%</span>
+                </span>
+              </div>
+
+                <span class="fw-600 text-info" style="margin-left: 42px">
+                  <i aria-hidden="true" class="fa-solid fa-check "></i>
+                </span>
+            </div>
+</a>        </li>
+        <li>
+          <a href="https://intranet.alxswe.com/curriculums/52/observe">
+            <div class="align-items-center d-flex py-2">
+              <div class="d-flex flex-column" style="line-height: 16px">
+                <span class="fs-4 fw-500">
+                  Professional Foundations
+                </span>
+                <span class="text-muted">
+                  Average: <span class="fw-500">93.67%</span>
+                </span>
+              </div>
+
+            </div>
+</a>        </li>
+        <li>
+          <a href="https://intranet.alxswe.com/curriculums/50/observe">
+            <div class="align-items-center d-flex py-2">
+              <div class="d-flex flex-column" style="line-height: 16px">
+                <span class="fs-4 fw-500">
+                  Founder Academy
+                </span>
+                <span class="text-muted">
+                  Average: <span class="fw-500">0.0%</span>
+                </span>
+              </div>
+
+            </div>
+</a>        </li>
+    </ul>
+  </div>
+</div>
+
+          
+          
+          
+        </div>
+
+      <article class="">
+
+        
+  <div class="d-flex flex-wrap">
+      <div class="text-right" id="curriculum_navigation_toggle">
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#curriculum_navigation_menu" aria-expanded="false">
+          Week 3
+          <i aria-hidden="true" class="fa-solid fa-bars ml-1"></i>
+        </button>
+      </div>
+
+      <div class="collapse" id="curriculum_navigation_menu">
+        <div class="d-flex flex-column gap-3 p-3">
+  <div class="dropdown d-flex">
+    <button class="w-full align-items-center btn btn-default d-flex justify-content-between dropdown-toggle" type="button" id="dropdownMenuChapters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 16px; line-height: 24px">
+      <span class="truncate">Week 3</span>
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu list-group" aria-labelledby="dropdownMenuChapters">
+        <li class="">
+          <a class="py-3" href="https://intranet.alxswe.com/projects/101291">Week 0</a>
+        </li>
+        <li class="">
+          <a class="py-3" href="https://intranet.alxswe.com/projects/100563">Week 1</a>
+        </li>
+        <li class="">
+          <a class="py-3" href="https://intranet.alxswe.com/projects/100943">Week 2</a>
+        </li>
+        <li class="active">
+          <a class="py-3" href="https://intranet.alxswe.com/projects/100582">Week 3</a>
+        </li>
+        <li class="">
+          <a class="py-3" href="https://intranet.alxswe.com/concepts/105199?project_id=101191">Week 4</a>
+        </li>
+    </ul>
+  </div>
+  <div class="panel-group" id="accordionUnits" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+  <div class="panel-heading" role="tab" id="headingUnit1052">
+    <h4 class="panel-title hstack">
+      <a role="button" data-toggle="collapse" data-parent="#accordionUnits" href="https://intranet.alxswe.com/projects/100581#collapseUnit1052" aria-expanded="true" aria-controls="collapseUnit1052">
+        <i aria-hidden="true" class="fa-solid fa-chevron-right mr-2 fa-fw"></i><span>HTML</span>
+      </a>
+    </h4>
+  </div>
+  <div id="collapseUnit1052" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingUnit1052">
+    <div class="list-group">
+        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102433?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Overview of HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102434?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Document Structure in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102435?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Understanding Metadata in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102436?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Introduction to Semantic HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102437?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Headings and Sections</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102438?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Attributes &amp; Types of Attributes</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102439?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Text basics</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102440?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Links in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102441?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Lists</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102442?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Navigation In HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102443?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Tables in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102444?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Forms in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102445?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Images in HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/concepts/102446?project_id=100581">
+          <div>
+  <i aria-hidden="true" class="fa-regular fa-file-lines mr-2 fa-fw"></i>
+  <span>Audio and Video</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between active" href="https://intranet.alxswe.com/projects/100581">
+          <div>
+  <i aria-hidden="true" class="fa-solid fa-list-check mr-2 fa-fw"></i>
+  <span>Introduction to HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  fa-fw"></i>
+
+</a>        <a class="list-group-item d-flex align-items-baseline justify-content-between " href="https://intranet.alxswe.com/projects/100582">
+          <div>
+  <i aria-hidden="true" class="fa-solid fa-list-check mr-2 fa-fw"></i>
+  <span>Practical HTML</span>
+</div>
+    <i aria-hidden="true" class="fa-solid fa-circle-check  text-success fa-fw"></i>
+
+</a>    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+      </div>
+
+    <div class="flex-grow-1" id="curriculum_navigation_content">
+      
+<div class="project row">
+  <div class="col-xs-12 col-lg-10 contains-images">
+
+      <h1 class="gap">
+    Introduction to HTML
+    
+  </h1>
+
+  <div data-react-class="tags/Tags" data-react-props="{&quot;tags&quot;:[]}" data-react-cache-id="tags/Tags-0"></div>
+
+  <div data-react-class="projects/ProjectMetadata" data-react-props="{&quot;metadata&quot;:{&quot;weight&quot;:1,&quot;correction&quot;:{&quot;released&quot;:true,&quot;requires_auto_correction&quot;:true,&quot;requires_manual_correction&quot;:false},&quot;bpi&quot;:{&quot;current&quot;:false,&quot;in_second_deadline&quot;:true,&quot;starts_at&quot;:&quot;2024-09-09T00:00:00.000+02:00&quot;,&quot;ends_at&quot;:&quot;2024-09-16T00:00:00.000+02:00&quot;,&quot;second_deadline_at&quot;:&quot;2024-09-23T00:00:00.000+02:00&quot;},&quot;level&quot;:&quot;Novice&quot;}}" data-react-cache-id="projects/ProjectMetadata-0"><ul class="list-group metadata" id="project-metadata"><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-turn-up fa-fw"></i> Novice</li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-gear fa-fw"></i> Weight: 1</li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-calendar fa-fw"></i> Ongoing second chance project - started <span data-container="body" data-html="false" data-placement="auto top" data-toggle="tooltip" title="" data-original-title="2024-09-09 00:00 (GMT+02:00)"><span class="datetime">Sep 9, 2024 12:00 AM</span></span>, must end by <span data-container="body" data-html="false" data-placement="auto top" data-toggle="tooltip" title="" data-original-title="2024-09-23 00:00 (GMT+02:00)"><span class="datetime">Sep 23, 2024 12:00 AM</span></span></li><li class="list-group-item"><i aria-hidden="true" class="fa-solid fa-square-check fa-fw"></i> An auto review will be launched at the deadline</li></ul></div>
+
+  <div class="sm-gap clean well">
+  <h4>In a nutshell…</h4>
+  <ul>
+
+
+      <li>
+        <strong>Auto QA review:</strong>
+          0.0/49 mandatory
+      </li>
+    <li>
+      <strong>Altogether:</strong>
+        &nbsp;<strong>0.0%</strong>
+        <ul>
+          <li>Mandatory: 0.0%</li>
+            <li>Optional: no optional tasks</li>
+        </ul>
+    </li>
+  </ul>
+
+</div>
+
+
+
+
+    
+
+
+    <div id="project_id" style="display: none" data-project-id="100581"></div>
+
+
+
+      
+
+      
+
+      <div class="panel panel-default" id="project-description">
+  <div class="panel-body">
+    <p><img src="./base_index_files/bbc7cd026384e6c465fd0a87962c73ea06e5480e.jpg" alt="" loading="lazy" style=""></p>
+
+<h2>Learning Objectives</h2>
+
+<p>At the end of this project, you are expected to be able to <a href="https://intranet.alxswe.com/rltoken/wMEI3Uq9YrfXo98kxNWU0w" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+
+<h3>General</h3>
+
+<ul>
+<li>What is HTML</li>
+<li>How to create an HTML page</li>
+<li>What is a markup language</li>
+<li>What is the DOM</li>
+<li>What is an element / tag</li>
+<li>What is an attribute</li>
+<li>How does the browser load a webpage</li>
+</ul>
+
+<h2>Requirements</h2>
+
+<h3>General</h3>
+
+<ul>
+<li>Recommended editors: <code>Visual studio code</code></li>
+<li>All your files should end with a new line</li>
+<li>A <code>README.md</code> file, at the root of the folder of the project is mandatory</li>
+<li>You are <strong>not allowed</strong> to install, import or use external libraries. This website must be build with only HTML/CSS/JavaScript. No NodeJS, React, VueJS, Bootstrap, etc.</li>
+<li>Your code should be W3C compliant and validate with <a href="https://intranet.alxswe.com/rltoken/k_qWagKGYKVC6FWS8E_vJQ" title="W3C-Validator" target="_blank">W3C-Validator</a></li>
+</ul>
+
+  </div>
+</div>
+
+
+      
+
+        <div class="panel panel-default" id="project-quiz-questions-title">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        Quiz questions
+      </h3>
+    </div>
+
+    <div class="panel-body">
+
+        <div class="alert alert-info">
+          <strong>Great!</strong>
+          You've completed the quiz successfully! Keep going!
+          <span id="quiz_questions_collapse_toggle">(Show quiz)</span>
+        </div>
+
+      <section class="quiz_questions_show_container" style="display: none;">
+          <div class="quiz_question_item_container" data-role="quiz_question8345" data-position="6">
+            <div class=" clearfix" id="quiz_question-8345">
+
+    <h4 class="quiz_question">
+        
+        Question #0
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>Which HTML tag is used to represent a self-contained piece of content that makes sense on its own, such as a blog post or news article?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8345">
+                <li class="">
+
+  <input type="radio" name="8345" id="8345-1716977140527" value="1716977140527" data-quiz-answer-id="1716977140527" data-quiz-question-id="8345" disabled="disabled">
+  <label for="8345-1716977140527"><p><code>&lt;header&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8345" id="8345-1716977120984" value="1716977120984" data-quiz-answer-id="1716977120984" data-quiz-question-id="8345" disabled="disabled" checked="checked">
+  <label for="8345-1716977120984"><p><code>&lt;article&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8345" id="8345-1716977125085" value="1716977125085" data-quiz-answer-id="1716977125085" data-quiz-question-id="8345" disabled="disabled">
+  <label for="8345-1716977125085"><p><code>&lt;section&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8345" id="8345-1716977131879" value="1716977131879" data-quiz-answer-id="1716977131879" data-quiz-question-id="8345" disabled="disabled">
+  <label for="8345-1716977131879"><p><code>&lt;div&gt;</code></p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8348" data-position="9">
+            <div class=" clearfix" id="quiz_question-8348">
+
+    <h4 class="quiz_question">
+        
+        Question #1
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>What is the purpose of the class attribute in HTML?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8348">
+                <li class="">
+
+  <input type="radio" name="8348" id="8348-1716977372110" value="1716977372110" data-quiz-answer-id="1716977372110" data-quiz-question-id="8348" disabled="disabled">
+  <label for="8348-1716977372110"><p>To store extra information with an element without any visual representation.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8348" id="8348-1716977340786" value="1716977340786" data-quiz-answer-id="1716977340786" data-quiz-question-id="8348" disabled="disabled" checked="checked">
+  <label for="8348-1716977340786"><p>To group multiple elements under the same identifier.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8348" id="8348-1716977353102" value="1716977353102" data-quiz-answer-id="1716977353102" data-quiz-question-id="8348" disabled="disabled">
+  <label for="8348-1716977353102"><p>To assign a unique identifier to an element.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8348" id="8348-1716977361800" value="1716977361800" data-quiz-answer-id="1716977361800" data-quiz-question-id="8348" disabled="disabled">
+  <label for="8348-1716977361800"><p>To apply CSS rules directly to an element.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8344" data-position="5">
+            <div class=" clearfix" id="quiz_question-8344">
+
+    <h4 class="quiz_question">
+        
+        Question #2
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>How does Semantic HTML benefit people with disabilities?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8344">
+                <li class="">
+
+  <input type="radio" name="8344" id="8344-1716977099007" value="1716977099007" data-quiz-answer-id="1716977099007" data-quiz-question-id="8344" disabled="disabled">
+  <label for="8344-1716977099007"><p>By incorporating interactive elements that engage users with disabilities.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8344" id="8344-1716977077132" value="1716977077132" data-quiz-answer-id="1716977077132" data-quiz-question-id="8344" disabled="disabled" checked="checked">
+  <label for="8344-1716977077132"><p>By using specific tags that assist screen readers in understanding and navigating website content.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8344" id="8344-1716977087317" value="1716977087317" data-quiz-answer-id="1716977087317" data-quiz-question-id="8344" disabled="disabled">
+  <label for="8344-1716977087317"><p>By providing visually appealing designs that enhance user experience.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8344" id="8344-1716977090367" value="1716977090367" data-quiz-answer-id="1716977090367" data-quiz-question-id="8344" disabled="disabled">
+  <label for="8344-1716977090367"><p>By optimizing websites for faster loading times and improved performance.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8346" data-position="7">
+            <div class=" clearfix" id="quiz_question-8346">
+
+    <h4 class="quiz_question">
+        
+        Question #3
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>What is the purpose of the <code>&lt;aside&gt;</code> tag in Semantic HTML?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8346">
+                <li class="">
+
+  <input type="radio" name="8346" id="8346-1716977185245" value="1716977185245" data-quiz-answer-id="1716977185245" data-quiz-question-id="8346" disabled="disabled">
+  <label for="8346-1716977185245"><p>To showcase illustrations, diagrams, photos, or code listings with accompanying explanations or captions.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8346" id="8346-1716977160587" value="1716977160587" data-quiz-answer-id="1716977160587" data-quiz-question-id="8346" disabled="disabled">
+  <label for="8346-1716977160587"><p>To group related content together based on a common theme or purpose.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8346" id="8346-1716977169329" value="1716977169329" data-quiz-answer-id="1716977169329" data-quiz-question-id="8346" disabled="disabled">
+  <label for="8346-1716977169329"><p>To represent a standalone piece of content, such as a blog post or news article.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8346" id="8346-1716977176826" value="1716977176826" data-quiz-answer-id="1716977176826" data-quiz-question-id="8346" disabled="disabled" checked="checked">
+  <label for="8346-1716977176826"><p>To display extra information or related content somewhat separate from the main content.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8340" data-position="1">
+            <div class=" clearfix" id="quiz_question-8340">
+
+    <h4 class="quiz_question">
+        
+        Question #4
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>What is the primary purpose of the <code>&lt;meta&gt;</code> tags in HTML?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8340">
+                <li class="">
+
+  <input type="radio" name="8340" id="8340-1716974365977" value="1716974365977" data-quiz-answer-id="1716974365977" data-quiz-question-id="8340" disabled="disabled">
+  <label for="8340-1716974365977"><p>To create interactive elements for user engagement</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8340" id="8340-1716974339770" value="1716974339770" data-quiz-answer-id="1716974339770" data-quiz-question-id="8340" disabled="disabled">
+  <label for="8340-1716974339770"><p>To define the structure and layout of a webpage</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8340" id="8340-1716974352830" value="1716974352830" data-quiz-answer-id="1716974352830" data-quiz-question-id="8340" disabled="disabled" checked="checked">
+  <label for="8340-1716974352830"><p>To provide instructions to the web browser about the webpage, such as creator information and viewport settings</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8340" id="8340-1716974356260" value="1716974356260" data-quiz-answer-id="1716974356260" data-quiz-question-id="8340" disabled="disabled">
+  <label for="8340-1716974356260"><p>To add images and multimedia content to the webpage</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8347" data-position="8">
+            <div class=" clearfix" id="quiz_question-8347">
+
+    <h4 class="quiz_question">
+        
+        Question #5
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>Which attribute is used to assign a unique identifier to an element?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8347">
+                <li class="">
+
+  <input type="radio" name="8347" id="8347-1716977234935" value="1716977234935" data-quiz-answer-id="1716977234935" data-quiz-question-id="8347" disabled="disabled">
+  <label for="8347-1716977234935"><p>data</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8347" id="8347-1716977213116" value="1716977213116" data-quiz-answer-id="1716977213116" data-quiz-question-id="8347" disabled="disabled">
+  <label for="8347-1716977213116"><p>class</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8347" id="8347-1716977219691" value="1716977219691" data-quiz-answer-id="1716977219691" data-quiz-question-id="8347" disabled="disabled">
+  <label for="8347-1716977219691"><p>style</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8347" id="8347-1716977228247" value="1716977228247" data-quiz-answer-id="1716977228247" data-quiz-question-id="8347" disabled="disabled" checked="checked">
+  <label for="8347-1716977228247"><p>id</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8349" data-position="10">
+            <div class=" clearfix" id="quiz_question-8349">
+
+    <h4 class="quiz_question">
+        
+        Question #6
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>How does the style attribute differ from using an external stylesheet?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8349">
+                <li class="">
+
+  <input type="radio" name="8349" id="8349-1716977419532" value="1716977419532" data-quiz-answer-id="1716977419532" data-quiz-question-id="8349" disabled="disabled">
+  <label for="8349-1716977419532"><p>The style attribute is used to assign a unique identifier to an element, while an external stylesheet provides additional information about an element.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8349" id="8349-1716977389892" value="1716977389892" data-quiz-answer-id="1716977389892" data-quiz-question-id="8349" disabled="disabled">
+  <label for="8349-1716977389892"><p>The style attribute is used for custom data attributes, while an external stylesheet applies CSS rules directly to an element.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8349" id="8349-1716977393049" value="1716977393049" data-quiz-answer-id="1716977393049" data-quiz-question-id="8349" disabled="disabled" checked="checked">
+  <label for="8349-1716977393049"><p>The style attribute applies CSS rules directly to an element, while an external stylesheet requires a separate file.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8349" id="8349-1716977401592" value="1716977401592" data-quiz-answer-id="1716977401592" data-quiz-question-id="8349" disabled="disabled">
+  <label for="8349-1716977401592"><p>The style attribute groups multiple elements under the same identifier, while an external stylesheet assigns a unique identifier to an element.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8343" data-position="4">
+            <div class=" clearfix" id="quiz_question-8343">
+
+    <h4 class="quiz_question">
+        
+        Question #7
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>What does the following meta tag indicate: <code>&lt;meta charset="utf-8"&gt;</code>?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8343">
+                <li class="">
+
+  <input type="radio" name="8343" id="8343-1716976368548" value="1716976368548" data-quiz-answer-id="1716976368548" data-quiz-question-id="8343" disabled="disabled">
+  <label for="8343-1716976368548"><p>It enhances the website’s compatibility with different browsers.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8343" id="8343-1716976326806" value="1716976326806" data-quiz-answer-id="1716976326806" data-quiz-question-id="8343" disabled="disabled">
+  <label for="8343-1716976326806"><p>It specifies the website’s language</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8343" id="8343-1716976336993" value="1716976336993" data-quiz-answer-id="1716976336993" data-quiz-question-id="8343" disabled="disabled">
+  <label for="8343-1716976336993"><p>It defines the color scheme of the webpage.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8343" id="8343-1716976356457" value="1716976356457" data-quiz-answer-id="1716976356457" data-quiz-question-id="8343" disabled="disabled" checked="checked">
+  <label for="8343-1716976356457"><p>It selects the alphabet for encoding text characters on the webpage.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8342" data-position="3">
+            <div class=" clearfix" id="quiz_question-8342">
+
+    <h4 class="quiz_question">
+        
+        Question #8
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>Which meta tag ensures that a website looks good on any device by adjusting its size accordingly?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8342">
+                <li class="">
+
+  <input type="radio" name="8342" id="8342-1716976306208" value="1716976306208" data-quiz-answer-id="1716976306208" data-quiz-question-id="8342" disabled="disabled">
+  <label for="8342-1716976306208"><p><code>&lt;meta name="responsive" content="true"&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8342" id="8342-1716976266609" value="1716976266609" data-quiz-answer-id="1716976266609" data-quiz-question-id="8342" disabled="disabled">
+  <label for="8342-1716976266609"><p><code>&lt;meta name="device-size" content="adjust"&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8342" id="8342-1716976274471" value="1716976274471" data-quiz-answer-id="1716976274471" data-quiz-question-id="8342" disabled="disabled">
+  <label for="8342-1716976274471"><p><code>&lt;meta name="screen-resolution" content="auto"&gt;</code></p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8342" id="8342-1716976289732" value="1716976289732" data-quiz-answer-id="1716976289732" data-quiz-question-id="8342" disabled="disabled" checked="checked">
+  <label for="8342-1716976289732"><p><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+          <div class="quiz_question_item_container" data-role="quiz_question8341" data-position="2">
+            <div class=" clearfix" id="quiz_question-8341">
+
+    <h4 class="quiz_question">
+        
+        Question #9
+    </h4>
+
+    <!-- Quiz question Body -->
+    <p>What is the role of the character set in HTML metadata?</p>
+
+
+    <!-- Quiz question Answers -->
+        <ul class="quiz_question_answers" data-question-id="8341">
+                <li class="">
+
+  <input type="radio" name="8341" id="8341-1716976242418" value="1716976242418" data-quiz-answer-id="1716976242418" data-quiz-question-id="8341" disabled="disabled" checked="checked">
+  <label for="8341-1716976242418"><p>It selects the alphabet used for encoding text characters on the webpage.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8341" id="8341-1716976209226" value="1716976209226" data-quiz-answer-id="1716976209226" data-quiz-question-id="8341" disabled="disabled">
+  <label for="8341-1716976209226"><p>It determines the font styles and sizes used on the webpage.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8341" id="8341-1716976221983" value="1716976221983" data-quiz-answer-id="1716976221983" data-quiz-question-id="8341" disabled="disabled">
+  <label for="8341-1716976221983"><p>It specifies the language in which the webpage content is written.</p>
+</label>
+</li>
+
+                <li class="">
+
+  <input type="radio" name="8341" id="8341-1716976234800" value="1716976234800" data-quiz-answer-id="1716976234800" data-quiz-question-id="8341" disabled="disabled">
+  <label for="8341-1716976234800"><p>It defines the color scheme and design elements of the webpage.</p>
+</label>
+</li>
+
+        </ul>
+
+    <!-- Quiz question Tips -->
+
+</div>
+
+          </div>
+
+      </section>
+    </div>
+  </div>
+
+
+        
+          <h2 class="gap">Tasks</h2>
+
+    <div data-role="task103041" data-position="2" id="task-num-0">
+      <div class="panel panel-default task-card " id="task-103041">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      0. Basic Structure
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="103041" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <p>Create the most basic, simple and valid HTML file called <code>base_index.html</code></p>
+
+<p>The page should contain:</p>
+
+<ul>
+<li>a <code>DOCTYPE</code></li>
+<li>a <code>head</code>:
+
+<ul>
+<li>with a title</li>
+</ul></li>
+<li>a <code>body</code></li>
+</ul>
+
+<p><strong>Tips:</strong> don’t forget to read all concept pages…</p>
+
+<p>Test the webpage with the <a href="https://intranet.alxswe.com/rltoken/cBcUPTeOAn3QF4ZReawnjA" title="official HTML Validator" target="_blank">official HTML Validator</a>. 
+You will see that it is not happy! </p>
+
+<p>First things first, fix the code in <code>base_index.html</code> so that it is valid. </p>
+
+<p>You will see that the validator then becomes much happier!</p>
+
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>html_basic</code></li>
+            <li>File: <code>base_index.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="103041">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-103041-modal-button" data-task-id="103041" data-toggle="modal" data-target="#task-test-correction-103041-correction-modal" id="task-num-0-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103041}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-103041-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "0. Basic Structure"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="103041" data-last-request-id="153598561">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="103041">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="103041">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="103041" data-toggle="modal" data-target="#task-qa-review-103041-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103041}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-103041-modal" data-correction-id="46403507" data-task-id="103041">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">0. Basic Structure</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+    <div data-role="task103042" data-position="3" id="task-num-1">
+      <div class="panel panel-default task-card " id="task-103042">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      1. Make a cool first webpage
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="103042" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <p>Copy your file <code>base_index.html</code> to <code>index.html</code></p>
+
+<p>Add in the <code>body</code> of the page:</p>
+
+<ul>
+<li>at least 4 paragraphs;</li>
+<li>headings (titles) of level 1, 2 and 3, which are represented by <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code> and <code>&lt;h3&gt;</code> tags;</li>
+<li>a clickable image of your choice (you can use this <a href="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" title="link" target="_blank">link</a> <code>https://i.ibb.co/gTDZZT8/ALX-Logo-07.png</code> image, or another one you find on the internet by using its full URL); and it may link to any URL online that you want.</li>
+</ul>
+
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>html_basic</code></li>
+            <li>File: <code>index.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="103042">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-103042-modal-button" data-task-id="103042" data-toggle="modal" data-target="#task-test-correction-103042-correction-modal" id="task-num-1-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103042}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-103042-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "1. Make a cool first webpage"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="103042">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="103042">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="103042">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="103042" data-toggle="modal" data-target="#task-qa-review-103042-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103042}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-103042-modal" data-correction-id="46403507" data-task-id="103042">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">1. Make a cool first webpage</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+    <div data-role="task103043" data-position="3" id="task-num-2">
+      <div class="panel panel-default task-card " id="task-103043">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      2. Make a cool other webpage
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="103043" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <p>Copy your file <code>base_index.html</code> to <code>tweets.html</code></p>
+
+<p>Add in the <code>body</code> of the page:</p>
+
+<ul>
+<li>embed at least one tweet (Here’s the official documentation from Twitter about <a href="https://intranet.alxswe.com/rltoken/rM0nwiMGbeSmO7S-MVbIrQ" title="embedding single tweets" target="_blank">embedding single tweets</a> in a webpage’s HTML code.)</li>
+<li>contain a link to your <code>index.html</code> webpage, for users who may go back to your homepage</li>
+</ul>
+
+<p>In <code>index.html</code>, add a link to <code>tweets.html</code>, for users landing on your homepage, who want to see your tweets!</p>
+
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>html_basic</code></li>
+            <li>File: <code>index.html, tweets.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="103043">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-103043-modal-button" data-task-id="103043" data-toggle="modal" data-target="#task-test-correction-103043-correction-modal" id="task-num-2-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103043}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-103043-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "2. Make a cool other webpage"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="103043">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="103043">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="103043">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="103043" data-toggle="modal" data-target="#task-qa-review-103043-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103043}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-103043-modal" data-correction-id="46403507" data-task-id="103043">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">2. Make a cool other webpage</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+    <div data-role="task103447" data-position="4" id="task-num-3">
+      <div class="panel panel-default task-card " id="task-103447">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      3. Make a cool website
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="103447" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <p>However, in order to start getting consistency throughout the website, all of the HTML files (<code>index.html</code> and <code>tweets.html</code>) must now have the same structure:</p>
+
+<ul>
+<li>The <code>&lt;body&gt;</code> tag of all of your webpages must contain exactly three direct sub-tags in that order: <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code> and <code>&lt;footer&gt;</code></li>
+<li>The <code>&lt;header&gt;</code> tag must contain an unordered list (the <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags) of links (the <code>&lt;a&gt;</code> tag) to each of your webpages. As you may have understood, this will serve as a navigation for your website.</li>
+<li>The <code>&lt;footer&gt;</code> tag must contain one paragraph with the sentence <code>Made by &lt;YOUR NAME&gt; - &lt;a href="&lt;ANY LINK&gt;" target="_blank"&gt;here&lt;/a&gt;</code>.</li>
+<li>The <code>&lt;main&gt;</code> tag must contain two direct sub-tags in that order: <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>:
+
+<ul>
+<li><code>&lt;article&gt;</code> contains the content of your webpage: texts, links, images, tweets, … This is the part of <code>index.html</code> and <code>tweets.html</code> that you have already written.</li>
+<li><code>&lt;aside&gt;</code> contains a single paragraph, just reading for now “placeholder to add comment thread later”.</li>
+</ul></li>
+</ul>
+
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>html_basic</code></li>
+            <li>File: <code>index.html, tweets.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="103447">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-103447-modal-button" data-task-id="103447" data-toggle="modal" data-target="#task-test-correction-103447-correction-modal" id="task-num-3-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103447}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-103447-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "3. Make a cool website"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="103447">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="103447">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="103447">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="103447" data-toggle="modal" data-target="#task-qa-review-103447-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103447}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-103447-modal" data-correction-id="46403507" data-task-id="103447">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">3. Make a cool website</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+    <div data-role="task103448" data-position="5" id="task-num-4">
+      <div class="panel panel-default task-card " id="task-103448">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      4. Add some level of creativity
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="103448" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <p>Update your <code>index.html</code> to add a table with information about some of the learners.</p>
+
+<p>On a new line before the last <code>&lt;/article&gt;</code> tag, let’s introduce a container for the table of learners.</p>
+
+<p>The bottom part of the <code>&lt;article&gt;</code> tag (before its closing tag) should contain a table <code>&lt;table&gt;</code> with the following structure:</p>
+
+<ul>
+<li>Use the <code>&lt;thead&gt;</code> tag to define the table header row.</li>
+<li>Use the <code>&lt;tbody&gt;</code> tag to contain the table data rows.</li>
+<li>Populate the table with the following data:</li>
+</ul>
+<table class="hbtn-table"><tbody><tr>
+<th>Name</th>
+<th>Age</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>John</td>
+<td>25</td>
+<td>USA</td>
+</tr>
+<tr>
+<td>Emily</td>
+<td>28</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>Michael</td>
+<td>32</td>
+<td>Australia</td>
+</tr>
+<tr>
+<td>Sophia</td>
+<td>21</td>
+<td>UK</td>
+</tr>
+</tbody></table>
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>html_basic</code></li>
+            <li>File: <code>index.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="103448">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-103448-modal-button" data-task-id="103448" data-toggle="modal" data-target="#task-test-correction-103448-correction-modal" id="task-num-4-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103448}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-103448-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "4. Add some level of creativity"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="103448">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="103448">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="103448">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="103448" data-toggle="modal" data-target="#task-qa-review-103448-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:103448}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-103448-modal" data-correction-id="46403507" data-task-id="103448">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">4. Add some level of creativity</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+    <div data-role="task102465" data-position="6" id="task-num-5">
+      <div class="panel panel-default task-card " id="task-102465">
+  <span id="user_id" data-id="229150"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      5. Build a Personal Portfolio Webpage
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="229150"></span>
+
+    <!-- Progress vs Score -->
+      <div class="task_progress_score_bar truncate" data-task-id="102465" data-correction-id="46403507">
+        <div class="task_progress_bar" style="width: 0.0%">
+          <div class="task_score_bar" style="width: NaN%">
+          </div>
+        </div>
+        <div class="task_progress_score_text">
+          Score: <span class="task_score_value">0.0%</span> (<span class="task_progress_value">Checks completed: 0.0%</span>)
+        </div>
+      </div>
+
+    <!-- Task Body -->
+    <h4>Objective</h4>
+
+<p>Create a personal portfolio webpage that effectively showcases your skills, projects, and contact information. </p>
+
+<h4>Detailed Requirements</h4>
+
+<p><strong>Create a Github repository  named <code>My_First_Portfolio</code> if not already created and within it create a directory called <code>portfolio</code></strong></p>
+
+<ol>
+<li><p><strong>HTML File</strong>:</p>
+
+<ul>
+<li>Create an HTML file within the <code>portfolio</code> directory and name your HTML file <code>index.html</code>.</li>
+</ul></li>
+<li><p><strong>Page Structure and Semantic HTML</strong>:</p>
+
+<ul>
+<li>The document must start with the <code>&lt;!DOCTYPE html&gt;</code> declaration.</li>
+<li>Use <code>&lt;html lang="en"&gt;</code> to define the document language.</li>
+<li>The <code>&lt;head&gt;</code> section must contain <code>&lt;meta charset="utf-8"&gt;</code> and a <code>&lt;title&gt;</code> element with your full name followed by <code>- Personal Portfolio</code> (e.g., <code>John Doe - Personal Portfolio</code>).</li>
+<li>The body of the document must include the following semantic HTML5 elements in order: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+</ul></li>
+<li><p><strong>Header</strong>:</p>
+
+<ul>
+<li>The <code>&lt;header&gt;</code> must contain an <code>&lt;h1&gt;</code> element with your name.</li>
+<li>Include a <code>&lt;p&gt;</code> tag beneath the <code>&lt;h1&gt;</code> with a brief tagline or professional statement.</li>
+</ul></li>
+<li><p><strong>Navigation Bar (<code>&lt;nav&gt;</code>)</strong>:</p>
+
+<ul>
+<li>Include a list of links (<code>&lt;ul&gt;</code> containing <code>&lt;li&gt;</code> elements) that allows navigation to the different sections of the webpage: Introduction, Projects, About Me, and Contact.</li>
+<li>Each list item must contain an <code>&lt;a&gt;</code> tag with the <code>href</code> attribute pointing to the corresponding section ID (e.g., <code>href="#projects"</code> for the Projects section).</li>
+</ul></li>
+<li><p><strong>Content Sections</strong>:</p>
+
+<ul>
+<li><strong>Introduction Section (<code>&lt;section id="introduction"&gt;</code>)</strong>: Include an <code>&lt;h2&gt;</code> heading titled “Introduction” and a paragraph <code>&lt;p&gt;</code> describing yourself.</li>
+<li><strong>Projects Section (<code>&lt;section id="projects"&gt;</code>)</strong>: Use an <code>&lt;h2&gt;</code> heading titled “Projects”. Each project must be wrapped in <code>&lt;article&gt;</code> tags with a class of “project”. Each <code>&lt;article&gt;</code> must contain an <code>&lt;h3&gt;</code> for the project title, a <code>&lt;p&gt;</code> for the description, and an <code>&lt;a&gt;</code> tag linking to the project with <code>target="_blank"</code>.</li>
+<li><strong>About Me Section (<code>&lt;section id="about"&gt;</code>)</strong>: Include an <code>&lt;h2&gt;</code> heading titled “About Me” and paragraphs or lists describing your background, skills, or hobbies.</li>
+<li><strong>Contact Section (<code>&lt;section id="contact"&gt;</code>)</strong>: Use an <code>&lt;h2&gt;</code> heading titled “Contact” and provide an email link using <code>&lt;a href="mailto:your.email@example.com"&gt;</code> and links to your LinkedIn and GitHub profiles, ensuring these links open in a new tab using <code>target="_blank"</code>.</li>
+</ul></li>
+<li><p><strong>Footer</strong>:</p>
+
+<ul>
+<li>The <code>&lt;footer&gt;</code> must contain a <code>&lt;p&gt;</code> element with copyright information (e.g., <code>&amp;copy; 2024 Your Name</code>).</li>
+</ul></li>
+</ol>
+
+  </div>
+
+  <div class="list-group">
+      <!-- LTI Resource -->
+
+    <!-- Task Files -->
+
+    <!-- Task URLs -->
+
+    <!-- Github information -->
+      <div class="list-group-item">
+        <p><strong>Repo:</strong></p>
+        <ul>
+          <li>GitHub repository: <code>My_First_Portfolio</code></li>
+            <li>Directory: <code>portfolio</code></li>
+            <li>File: <code>index.html</code></li>
+        </ul>
+      </div>
+
+    <!-- Self-paced manual review -->
+  </div>
+
+  <!-- Panel footer - Controls -->
+  <div class="panel-footer">
+      <div class="align-items-center d-flex justify-content-between">
+        
+<div>
+    <button class="student_task_done btn btn-default btn-sm no" data-task-id="102465">
+      <span class="no"><i aria-hidden="true" class="fa-regular fa-square "></i></span>
+      <span class="yes"><i aria-hidden="true" class="fa-regular fa-square-check "></i></span>
+      <span class="pending"><i aria-hidden="true" class="fa-solid fa-spinner  fa-spin-pulse"></i></span>
+      Done<span class="no pending">?</span><span class="yes">!</span>
+    </button>
+
+      <button class="btn btn-default btn-sm check-your-task-102465-modal-button" data-task-id="102465" data-toggle="modal" data-target="#task-test-correction-102465-correction-modal" id="task-num-5-check-code-btn" data-gtm-custom-event-name="task_checker_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:102465}">
+          Check your code
+      </button>
+      <div class="modal fade task_correction_modal student_modal" id="task-test-correction-102465-correction-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Correction of "5. Build a Personal Portfolio Webpage"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="actions">
+                    <center>
+                        <div class="alert alert-info hidden"></div>
+
+                        <button name="button" type="submit" class="btn btn-primary correction_request_test_send" data-task-id="102465">Start a new test</button>
+                        <button class="btn btn-default close-modal hidden" data-dismiss="modal" type="button">Close</button>
+
+                        <div class="spinner" style="display: none;">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                        <div class="error"></div>
+                        <div class="info"></div>
+                    </center>
+                </div>
+                <div class="result"></div>
+
+                <div class="help">
+    <button data-task-id="102465">
+        <i aria-hidden="true" class="fa-solid fa-circle-info "></i>
+    </button>
+    <div class="help-container" data-task-id="102465">
+        <div class="check-line">
+            <div class="check-inline requirement success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Requirement success
+            </div>
+            <div class="check-inline requirement fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Requirement fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline code success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Code success
+            </div>
+            <div class="check-inline code fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Code fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline efficiency success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Efficiency success
+            </div>
+            <div class="check-inline efficiency fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Efficiency fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline answer success">
+                <i aria-hidden="true" class="fa-solid fa-circle-check "></i>
+                Text answer success
+            </div>
+            <div class="check-inline answer fail">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Text answer fail
+            </div>
+        </div>
+        <div class="check-line">
+            <div class="check-inline requirement fail offline">
+                <i aria-hidden="true" class="fa-solid fa-circle-xmark "></i>
+                Skipped - Previous check failed
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+      <button class="btn btn-default btn-sm" data-task-id="102465" data-toggle="modal" data-target="#task-qa-review-102465-modal" data-gtm-custom-event-name="task_qa_review_modal" data-gtm-custom-event-options="{&quot;taskId&quot;:102465}">
+        QA Review
+      </button>
+      <div class="modal fade task_get_qa_review" id="task-qa-review-102465-modal" data-correction-id="46403507" data-task-id="102465">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">5. Build a Personal Portfolio Webpage</h4>
+            </div>
+            <div class="modal-body">
+                <div class="spinner gap">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+                <div class="review-container">
+                    <div class="review-corrector"></div>
+                    <div class="review-github well" style="display:none">
+                        <h5>Commit used:</h5>
+                        <ul>
+                            <li style="display:none"><strong>User:</strong> <code class="review-github-id"></code> <span class="review-github-name">---</span></li>
+                            <li style="display:none"><strong>URL:</strong> <a class="review-github-url" target="_blank">Click here</a></li>
+                            <li style="display:none"><strong>ID:</strong> <code class="review-github-commit_id">---</code></li>
+                            <li style="display:none"><strong>Author:</strong> <span class="review-github-committer_username">---</span></li>
+                            <li style="display:none"><strong>Subject:</strong> <em class="review-github-subject">---</em></li>
+                            <li style="display:none"><strong>Date:</strong> <span class="review-github-datetime">---</span></li>
+                        </ul>
+                    </div>
+                    <div class="review-percentage_down"></div>
+                    <ul class="review-checks list-group sm-gap"></ul>
+                    <div class="review-comment"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+        <div class="fs-4">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+
+
+
+
+
+  </div>
+</div>
+
+
+      <div class="d-flex col-xs-12 col-lg-10 justify-content-between flex-grow-1 flex-wrap px-0 py-3 gap-3 sm-gap">
+  <div>
+      <a class="btn btn-default" style="white-space: normal; text-align: left" href="https://intranet.alxswe.com/concepts/102446?project_id=100581">
+        <div class="d-flex align-items-baseline gap-3">
+          <i aria-hidden="true" class="fa-solid fa-angles-left "></i>
+          <span>Back</span>
+        </div>
+</a>  </div>
+  <div>
+
+        <a class="btn btn-default" style="white-space: normal; text-align: left" href="https://intranet.alxswe.com/projects/100582">
+          <div class="d-flex align-items-baseline gap-3">
+            <span>Next</span>
+            <i aria-hidden="true" class="fa-solid fa-angles-right "></i>
+          </div>
+</a>  </div>
+</div>
+
+    </div>
+  </div>
+
+
+      </article>
+
+        <div class="copyright">Copyright © 2024 ALX, All rights reserved.</div>
+
+    </main><script type="text/javascript" id="">window.userpilotSettings={token:"NX-b636a33d"};</script>
+<script type="text/javascript" id="" src="./base_index_files/latest.js.download"></script><script type="text/javascript" id="">(function(h){(function(a,c,g,d,b){b=a[d]=a[d]||{};b._q=b._q||[];var f=["initialize","identify","updateOptions","pageLoad","track"];a=0;for(d=f.length;a<d;++a)(function(e){b[e]=b[e]||function(){b._q[e===f[0]?"unshift":"push"]([e].concat([].slice.call(arguments,0)))}})(f[a]);a=c.createElement(g);a.async=!0;a.src="https://cdn.eu.pendo.io/agent/static/"+h+"/pendo.js";c=c.getElementsByTagName(g)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","pendo");pendo.initialize({visitor:{id:google_tag_manager["rm"]["95746365"](2),
+id_svna:google_tag_manager["rm"]["95746365"](3),type_svna:google_tag_manager["rm"]["95746365"](4),curId_svna:google_tag_manager["rm"]["95746365"](5),curName_svna:google_tag_manager["rm"]["95746365"](6),curCohortId_svna:google_tag_manager["rm"]["95746365"](7),curCohortName_svna:google_tag_manager["rm"]["95746365"](8),curCohortSchLocName_svna:google_tag_manager["rm"]["95746365"](9),curCohortSchLocId_svna:google_tag_manager["rm"]["95746365"](10),prgCohortId:google_tag_manager["rm"]["95746365"](11),prgCohortName:google_tag_manager["rm"]["95746365"](12)},account:{}})})("3353b3bd-f678-4388-5809-8944627d3f27");</script>
+
+
+
+        <div class="modal fade" id="markdownGuideModal" tabindex="-1" role="dialog" aria-labelledby="markdownGuideModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title">Markdown Guide</h4>
+        </div>
+        <div class="modal-body">
+            <h4>Emphasis</h4>
+<pre>**<strong>bold</strong>**
+*<em>italics</em>*
+~~<strike>strikethrough</strike>~~</pre>
+<h4>Headers</h4>
+<pre># Big header
+## Medium header
+### Small header
+#### Tiny header</pre>
+<h4>Lists</h4>
+<pre>* Generic list item
+* Generic list item
+* Generic list item
+
+1. Numbered list item
+2. Numbered list item
+3. Numbered list item</pre>
+<h4>Links</h4>
+<pre>[Text to display](http://www.example.com)</pre>
+<h4>Quotes</h4>
+<pre>&gt; This is a quote.
+&gt; It can span multiple lines!</pre>
+<h4>Images</h4>
+<p>CSS style available: <code>width, height, opacity</code></p>
+<pre>![](http://www.example.com/image.jpg)
+![](http://www.example.com/image.jpg | width: 200px)
+![](http://www.example.com/image.jpg | height: 124px | width: 80px | opacity: 0.6)
+</pre>
+<h4>Tables</h4>
+<pre>| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| John     | Doe      | Male     |
+| Mary     | Smith    | Female   |
+
+<em>Or without aligning the columns...</em>
+
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| John | Doe | Male |
+| Mary | Smith | Female |
+</pre>
+<h4>Displaying code</h4>
+<pre>`var example = "hello!";`
+
+<em>Or spanning multiple lines...</em>
+
+```
+var example = "hello!";
+alert(example);
+```</pre>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+        <script id="cody-snippet">
+          window.codySettings = { widget_id: "9993bc72-2258-452b-a4bf-b2fe1ad5e0d7" };
+          !function(){var t=window,e=document,a=function(){var t=e.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://trinketsofcody.com/cody-widget.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a)};"complete"===document.readyState?a():t.attachEvent?t.attachEvent("onload",a):t.addEventListener("load",a,!1)}();
+        </script>
+  
+
+
+<script type="text/javascript" id="">for(var dl=window.dataLayer||[],user=void 0,i=0;i<dl.length;i++)if(dl[i].userId){user=dl[i];break}user&&user.batch&&user.curriculum&&(userpilot.identify("savanna-"+user.userId.toString(),{cohortId:user.batch.id,cohortName:user.batch.fullNameWithC,locationId:user.batch.schoolLocation.id,locationName:user.batch.schoolLocation.name,curriculumId:user.curriculum.id,curriculumName:user.curriculum.name}),userpilot.reload());</script>
+<div id="userpilotContent" key="1377467235" theme_id="0"></div><div id="cody-wrapper"><style>
+  #cody-wrapper .cody-launcher {
+    position: var(--position) !important;
+    left: var(--left) !important;
+    right: var(--right) !important;
+    bottom: var(--launcher-bottom) !important;
+    border-radius: 9999px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    z-index: 999999 !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: box-shadow, scale 300ms linear !important;
+    animation: cody-launcher-pulse 4s infinite !important;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    cursor: pointer !important;
+    --icon-margin: 12px;
+    --close-icon-margin: 16px;
+  }
+
+    #cody-wrapper {
+    --position: fixed;
+    --left: unset;
+    --right: 20px;
+    --launcher-bottom: 20px;
+    --frame-bottom: 90px;
+    --background-color: #FBD647;
+    --text-color: #020617;
+    --shadow-color: 251, 214, 71;
+  }
+
+  @media screen and (max-width: 512px) {
+    #cody-wrapper {
+      --left: unset;
+      --right: 10px;
+    }
+  }
+
+  
+  #cody-wrapper .cody-launcher:hover {
+    scale: 1.1 !important;
+  }
+
+  #cody-wrapper .cody-launcher .cody-close-icon {
+    display: none !important;
+  }
+
+  #cody-wrapper[data-launcher-open] .cody-launcher .cody-icon {
+    display: none !important;;
+  }
+
+  #cody-wrapper[data-launcher-open] .cody-launcher .cody-close-icon {
+    display: block !important;;
+  }
+
+  #cody-wrapper .cody-iframe {
+    z-index: 99999 !important;
+    transition: visibility .5s, opacity .5s linear !important;
+    background-color: #fff !important;
+    position: fixed !important;
+    left: var(--left) !important;
+    right: var(--right) !important;
+    bottom: var(--frame-bottom) !important;
+    height: 75vh !important;
+    width: 448px !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 4px rgba(0, 18, 26, .08), 0 3px 12px rgba(0, 18, 26, .16), 0 2px 14px 0 rgba(0, 18, 26, .2) !important;
+    border: 0 !important;
+    display: none !important;
+  }
+
+  @media screen and (max-height: 667px) {
+    #cody-wrapper .cody-iframe {
+      height: calc(100vh - 110px) !important;
+    }
+  }
+
+  @media screen and (max-width: 448px) {
+    #cody-wrapper .cody-iframe {
+      width: calc(100vw - 20px) !important;
+    }
+  }
+
+  #cody-wrapper[data-launcher-open] .cody-iframe {
+    display: block !important;
+  }
+
+  @keyframes cody-launcher-pulse {
+    0%, 100% {
+      box-shadow: 0 0 18px 4px rgba(var(--shadow-color), 0.8);
+    }
+    50% {
+      box-shadow: 0 0 12px 3px rgba(var(--shadow-color), 0.4);
+    }
+  }
+</style>
+
+<button class="cody-launcher" style="width: 56px; height: 56px; font-size: 16px;">
+    <svg class="cody-icon" style="aspect-ratio: 1 / 1; width: 100%; height: 100%; margin: var(--icon-margin)" aria-hidden="true" viewBox="5 7 45 45" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <path d="M41.18 17.86a52.75 52.75 0 0 0-19 0c-.54.1-7.9 2.7-7.9 2.7h.01c-2.9 1.01-4.91 3.75-4.91 6.9v4.85c0 2.96 1.78 5.56 4.4 6.7l17.91 8.93v-6.67c3.18 0 6.36-.29 9.5-.86 4.13-.76 7.13-4.36 7.13-8.56v-5.44c-.01-4.19-3.01-7.79-7.14-8.55zm3.47 14c0 2.43-1.74 4.52-4.13 4.95-2.91.53-5.88.8-8.84.8s-5.93-.27-8.84-.8c-2.39-.44-4.13-2.52-4.13-4.95v-5.44c0-2.43 1.74-4.52 4.13-4.95 2.91-.53 5.88-.8 8.84-.8s5.93.27 8.84.8c2.39.44 4.13 2.52 4.13 4.95v5.44z" fill="currentColor"></path>
+    <path d="M26.17 32.79c-.84 0-1.53-.68-1.53-1.53v-4.24c0-.84.68-1.53 1.53-1.53s1.53.68 1.53 1.53v4.24c-.01.85-.69 1.53-1.53 1.53zM37.17 32.79c-.84 0-1.53-.68-1.53-1.53v-4.24c0-.84.68-1.53 1.53-1.53s1.53.68 1.53 1.53v4.24c0 .85-.68 1.53-1.53 1.53z" fill="currentColor"></path>
+</svg>    <svg style="aspect-ratio: 1/1; width: 100%; height: 100%; margin: var(--close-icon-margin);" class="cody-close-icon" launchercloseicon="chevron-down" aria-hidden="true" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <path d="M239 401c9.4 9.4 24.6 9.4 33.9 0L465 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-175 175L81 175c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L239 401z" fill="currentColor"></path>
+</svg></button></div></body></html>
